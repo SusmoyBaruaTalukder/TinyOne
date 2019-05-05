@@ -1,0 +1,312 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) 
+{
+
+/*Header Start*/
+	.menu ul li a
+	{		
+		padding: 0 0px !important;
+		text-align: right;
+		font-size: 18px;
+	}
+
+/*Slider Start*/
+	.slider
+	{
+		padding-bottom: 70px;
+	}
+
+	.inspire
+	{
+		margin-top: 0px;
+		text-align: center;
+	}
+
+	.inspire h1
+	{
+		font-size: 28px;
+	}
+
+	.inspire ul li i 
+	{
+	    font-size: 30px;
+	}
+
+	.ci
+	{
+		bottom: -55px;
+	}
+
+	.ci li
+	{
+	    width: 13px;
+	    height: 13px;
+	}
+/*Features Start*/
+	.features
+	{
+		padding-top: 40px;
+		padding-bottom: 10px;
+	}
+	.tiny
+	{
+		margin-bottom: 40px;
+	}
+	.tiny h1
+	{
+		font-size: 26px;
+	}
+	.tiny p
+	{
+		font-size: 16px;
+	}
+	.icon
+	{
+		font-size: 40px;
+	}
+	.icon_content
+	{
+		margin-top: 5px;
+	}
+	.icon_content h2
+	{
+		font-size: 20px;
+	}
+	.icon_content p
+	{
+		word-spacing: 0px;
+	}
+	.single
+	{
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+/*Contact Start*/
+	.contact
+	{
+		padding-top: 40px;
+		padding-bottom: 60px;
+	}
+	.keep_in h1
+	{
+		font-size: 26px;
+		margin-bottom: 10px;
+	}
+	.keep_in p
+	{
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	.for_form
+	{
+		margin-bottom: 30px;
+	}
+	.email
+	{
+		padding: 10px 10px;
+		height: 40px;
+		margin-bottom: 10px;
+	}
+	.btn-custom
+	{
+		padding: 7px 25px;
+	}
+	.keep_in ul li a
+	{
+		width: 30px;
+		height: 30px;
+		font-size: 22px;
+		margin-right: 10px;
+	}
+/*Footer Start*/
+	.address
+	{
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	.footer_content ul li
+	{
+		display: block;
+	}
+}
+
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+
+/*Header Start*/
+	.menu ul li a
+	{		
+		padding: 0 0px !important;
+		text-align: right;
+		font-size: 20px;
+	}
+
+/*Slider Start*/
+	.inspire
+	{
+		margin-top: 25px;
+	}
+
+	.inspire ul li i 
+	{
+	    font-size: 35px;
+	}
+
+	.ci li
+	{
+	    width: 13px;
+	    height: 13px;
+	}
+
+/*Features Start*/
+	.features
+	{
+		padding-top: 60px;
+		padding-bottom: 30px;
+	}
+	.tiny
+	{
+		margin-bottom: 40px;
+	}
+	.tiny p
+	{
+		font-size: 16px;
+	}
+	.icon
+	{
+		font-size: 40px;
+	}
+	.icon_content
+	{
+		margin-top: 7px;
+	}
+	.icon_content h2
+	{
+		font-size: 18px;
+	}
+	.icon_content p
+	{
+		word-spacing: 0px;
+	}
+
+/*Contact Start*/
+	.contact
+	{
+		padding-top: 60px;
+		padding-bottom: 80px;
+	}
+	.keep_in p
+	{
+		font-size: 16px;
+	}
+
+/*Footer Start*/
+	.address
+	{
+		text-align: center;
+		padding-bottom: 15px;
+	}
+	.footer_content ul li
+	{
+		display: block;
+	}
+
+}
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) 
+{
+	
+/*Header Start*/
+	.menu ul li a
+	{		
+		padding: 0 0px !important;
+		text-align: right;
+	}
+
+/*Slider Start*/
+	.inspire
+	{
+		margin-top: 45px;
+	}
+
+	.inspire ul li i 
+	{
+	    font-size: 40px;
+	}
+
+	.ci li
+	{
+	    width: 14px;
+	    height: 14px;
+	}
+
+/*Features Start*/
+	.features
+	{
+		padding-top: 80px;
+		padding-bottom: 50px;
+	}
+	.tiny
+	{
+		margin-bottom: 40px;
+	}
+	.tiny p
+	{
+		font-size: 16px;
+	}
+	.icon
+	{
+		font-size: 40px;
+	}
+	.icon_content
+	{
+		margin-top: 7px;
+	}
+	.icon_content h2
+	{
+		font-size: 17px;
+	}
+	.icon_content p
+	{
+		word-spacing: 0px;
+	}
+
+/*Contact Start*/
+	.contact
+	{
+		padding-top: 80px;
+		padding-bottom: 100px;
+	}
+	.keep_in p
+	{
+		font-size: 16px;
+	}
+/*Footer Start*/
+	.address
+	{
+		text-align: center;
+		padding-bottom: 25px;
+	}
+	.footer_content ul li
+	{
+		display: block;
+	}
+}
+
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+
+
+}
+
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px)
+{
+
+}
